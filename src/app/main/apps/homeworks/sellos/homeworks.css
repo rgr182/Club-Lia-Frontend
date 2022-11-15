@@ -1,0 +1,343 @@
+.btnSello {
+    height: 82.3px;
+    width: 82.67px;   
+    padding: 0px;
+    border-radius: 50%;
+    margin: 0px 5px 0px 5px;
+    border: solid transparent 0p;
+    margin-bottom: 17px;
+}
+
+.buttonEdit {
+    background: #F4B335;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.buttonEdit:focus {
+    background: white;
+    border: solid #F4B335 2px;
+    color: #F4B335;
+}
+
+.btnSelloStyle {
+    position: relative;
+    bottom: 84px;
+    left: 0px;
+    height: 85px;
+    width: 85px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.divSello {
+    width: 85px;
+    height: 85px;
+}
+
+.sello1 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg1/1.2.svg");
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sello1_1 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg1/1.svg");
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+.sello2 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg2/2.2.svg");
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sello2_1 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg2/2.svg");
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sello3 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg3/3.2.svg");
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sello3_1 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg3/3.svg");
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sello4 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg4/4.2.svg");
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sello4_1 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg4/4.svg");
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sello5 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg5/5.2.svg");
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    background-size: cover;
+}
+
+.sello5_1 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg5/5.svg");
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    background-size: cover;
+}
+.sello6 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg6/6.2.svg");
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sello6_1 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg6/6.svg");
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sello7 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg7/7.2.svg");
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sello7_1 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg7/7.svg");
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sello8 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg8/8.2.svg");
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    background-size: cover;
+}
+
+.sello8_1 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg8/8.svg");
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    background-size: cover;
+}
+
+.sello9 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg9/9.2.svg");
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sello9_1 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg9/9.svg");
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sello10 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg10/10.2.svg");
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sello10_1 {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 41px;
+    color: #BEBEBE;
+    transition: background-image 0.1s linear 0.1s;
+    background-image: url("../img/homeworks/svg10/10.svg");
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.iconPrueba {
+    color: #F4B335;
+}
+
+.sellos {
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: 8rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 8rem), 1fr));
+    height: 90px;
+    width: 86%;
+    overflow: auto;
+    margin-top: 10px;
+    scrollbar-arrow-color: tomato;
+    overflow-x: clip;
+}
+
+.sello1 > span[class="MuiTouchRipple-root"], .sello1_1 > span[class="MuiTouchRipple-root"] {
+    display: none;
+}
+.sello2 > span[class="MuiTouchRipple-root"], .sello2_1 > span[class="MuiTouchRipple-root"] {
+    display: none;
+}
+.sello3 > span[class="MuiTouchRipple-root"], .sello3_1 > span[class="MuiTouchRipple-root"] {
+    display: none;
+}
+.sello4 > span[class="MuiTouchRipple-root"], .sello4_1 > span[class="MuiTouchRipple-root"] {
+    display: none;
+}
+.sello5 > span[class="MuiTouchRipple-root"], .sello5_1 > span[class="MuiTouchRipple-root"] {
+    display: none;
+}
+.sello6 > span[class="MuiTouchRipple-root"], .sello6_1 > span[class="MuiTouchRipple-root"] {
+    display: none;
+}
+.sello7 > span[class="MuiTouchRipple-root"], .sello7_1 > span[class="MuiTouchRipple-root"] {
+    display: none;
+}
+.sello8 > span[class="MuiTouchRipple-root"], .sello8_1 > span[class="MuiTouchRipple-root"] {
+    display: none;
+}
+.sello9 > span[class="MuiTouchRipple-root"], .sello9_1 > span[class="MuiTouchRipple-root"] {
+    display: none;
+}
+.sello10 > span[class="MuiTouchRipple-root"], .sello10_1 > span[class="MuiTouchRipple-root"] {
+    display: none;
+}
+

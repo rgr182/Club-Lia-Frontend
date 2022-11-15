@@ -1,0 +1,688 @@
+.avatar {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-Right: 10px;
+    background: lightgray;
+}
+
+.avatarGray {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-Right: 10px;
+    background: lightgray;
+    padding: 5px;
+}
+
+.contenedor {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    /* margin: 5px 5px 25px 5px; */
+    font-family: Poppins;
+    font-style: normal;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(96,206,255,0.71);
+    box-shadow: 0px 0px 15px 3px rgba(96,206,255,0.71);
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contenedorUsuarios {
+    /* flex-wrap: wrap; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    /* margin: 5px 5px 25px 5px; */
+    font-family: Poppins;
+    font-style: normal;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(96,206,255,0.71);
+    box-shadow: 0px 0px 15px 3px rgba(96,206,255,0.71);
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.head {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    display: grid;
+    gap: 5rem;
+    grid-template-rows: 3rem;
+    grid-template-columns: repeat(3, minmax(min(100%, 30rem), 1fr));
+    margin-bottom: 100px;
+}
+
+.btnRegresar {
+    display: flex;
+    height: 30px;
+    justify-content: left;
+    margin-right: 10px;
+}
+
+.nameTarea {
+    text-align: center;
+    color: #00B1FF;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.nameAndAvatar {
+    width: 100%;
+    color: #00B1FF;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: Poppins;
+}
+
+.nameStudent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitleBlack {
+    width: 100%;
+    color: #353535;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Poppins';
+}
+
+.subtitleBlue {
+    width: 100%;
+    color: #00B1FF;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Poppins';
+}
+
+.contenido {
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select {        
+    width: 100%;
+    border-Radius: 10px;
+    background: transparent;
+    color: black;
+    height: 35px;
+    border: solid #60CEFF 3px;
+    font-family: Poppins;
+    padding: 3px;
+    margin-right: 15px;
+    margin-left: 12px;
+}
+
+
+.select::before, .select::after, .select:focus {        
+    border: solid transparent 0px;
+    content: none;
+}
+
+.selectUsuarios {        
+    width: 200px;
+    border-Radius: 10px;
+    background: transparent;
+    color: black;
+    height: 35px;
+    border: solid #60CEFF 3px;
+    font-family: Poppins;
+    padding: 3px;
+    margin-right: 15px;
+    margin-left: 12px;
+}
+
+
+.selectUsuarios::before, .selectUsuarios::after, .selectUsuarios:focus {        
+    border: solid transparent 0px;
+    content: none;
+}
+
+.selectEdit {        
+    width: 100%;
+    border-Radius: 10px;
+    background: transparent;
+    color: black;
+    height: 35px;
+    border: solid #60CEFF 3px;
+    font-family: Poppins;
+    padding: 3px;
+    margin-right: 15px;
+    margin-left: 12px;
+}
+ 
+.selectEdit::before, .selectEdit::after, .selectEdit:focus {        
+    border: solid transparent 0px;
+    content: none;
+} 
+
+.selectUsers {
+    display: flex;
+    justify-content: right;
+    margin-right: 46px;
+    width: 100%;
+}
+
+.message {
+    width: 100%;
+    height: 97px;
+    border-radius: 8px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+    -webkit-box-shadow: 0px 0px 10px rgba(43, 25, 166, 0.2);
+    box-shadow: 0px 0px 10px rgba(43, 25, 166, 0.2);
+    font-family: 'Poppins';
+}
+
+.spinner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.spinner > div {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridEdit {
+    width: 25%;
+    display: flex;
+    justify-content: right;
+    margin-right: 15px;
+}
+
+.material {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+.wordBreak {
+    word-break: break-word;
+}
+
+.tareaMarginR {
+    width: 96%;
+    height: 70px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: left;        
+    -webkit-box-shadow: 0px 0px 10px rgba(43, 25, 166, 0.2);
+    box-shadow: 0px 0px 10px rgba(43, 25, 166, 0.2);
+    margin: 0px 0px 10px 0px;
+    word-wrap: break-word;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-right: 15px;
+    overflow-x: auto;
+}
+
+.tareaMarginL {
+    width: 96%;
+    height: 70px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: left;        
+    -webkit-box-shadow: 0px 0px 10px rgba(43, 25, 166, 0.2);
+    box-shadow: 0px 0px 10px rgba(43, 25, 166, 0.2);
+    margin: 0px 0px 10px 0px;
+    word-wrap: break-word;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    overflow-x: auto;
+}
+
+.selectDashbord {
+        width: 200px;
+        border-radius: 10px;
+        background: transparent;
+        color: black;
+        height: 35px;
+        margin-top: 8px;
+        margin-right: 6px;
+        border: solid #60CEFF 3px;
+        font-family: 'Poppins';
+        padding: 3px;
+}
+
+.selectDashbord::before, .selectDashbord::after, .selectDashbord:focus {
+    border: solid transparent 0px;
+    content: none;
+}
+
+/********************************Calendar*********************************/
+
+.selectCalendar {
+    width: 200px;
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    height: 35px;
+    border: solid #60CEFF 3px;
+    font-family: 'Poppins';
+    padding: 3px;
+}
+
+.selectCalendar::before, .selectCalendar::after, .selectCalendar:focus {
+    border: solid transparent 0px;
+    content: none;
+}
+
+.titleCalendar {
+    text-align: center;
+    color: #00B1FF;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Grobold';
+}
+
+.divBtnCrearClase {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.btnCrearClase, .btnCrearClase:hover {
+    font-family: 'Poppins';
+    width: 204px;
+    height: 38px;
+    border-radius: 28px;
+    color: white;
+    background: #00B1FF;
+    box-shadow: transparent;
+    text-transform: none;
+}
+
+.divFiltros {
+    width: 100%;
+    color: #00B1FF;
+}
+
+.selectFilterGroup {
+    width: 95%;
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    height: 35px;
+    border: solid #60CEFF 3px;
+    font-family: 'Poppins';
+    padding: 3px;
+    padding-left: 5px;
+}
+
+.selectFilterGroup::before, .selectFilterGroup::after, .selectFilterGroup:focus {
+    border: solid transparent 0px;
+    content: none;
+}
+
+.marginRight {
+    margin-right: 15px;
+}
+
+
+.selectFilter {
+    width: 47.5%;
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    height: 35px;
+    border: solid #60CEFF 3px;
+    font-family: 'Poppins';
+    padding: 3px;
+    padding-left: 5px;
+}
+
+.selectFilter::before, .selectFilter::after, .selectFilter:focus {
+    border: solid transparent 0px;
+    content: none;
+}
+
+.subtitle {
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.elementosFilter {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.treeView {
+    background-color: transparent;
+    position: relative;
+}
+
+.MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label:hover, .MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label::after, .MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label::before, .MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label:focus {
+    background-color: transparent;
+}
+
+.MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label:hover, .MuiTreeItem-root.Mui-selected:focus > .MuiTreeItem-content .MuiTreeItem-label {
+    background-color: transparent;
+}
+
+.MuiTreeItem-label:hover {
+    background-color: transparent;
+}
+
+.MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label {
+    background-color: transparent;
+}
+
+.headCalendar {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: 3rem;
+    grid-template-columns: repeat(3, minmax(min(100%, 25rem), 1fr));
+}
+
+.btnRegresarCalendar {
+    display: flex;
+    height: 30px;
+    justify-content: left;
+    padding-left: 7px;
+    /* margin-right: 10px; */
+}
+
+.contenedorCalendar {
+    flex-wrap: wrap;
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    /* margin: 5px 5px 25px 5px; */
+    font-family: Poppins;
+    font-style: normal;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(96,206,255,0.71);
+    box-shadow: 0px 0px 15px 3px rgba(96,206,255,0.71);
+    background: white;
+    border-radius: 10px;
+}
+
+.contenedorTarea {
+    flex-wrap: wrap;
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    /* margin: 5px 5px 25px 5px; */
+    font-family: Poppins;
+    font-style: normal;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(96,206,255,0.71);
+    box-shadow: 0px 0px 15px 3px rgba(96,206,255,0.71);
+    background: white;
+    border-radius: 10px;
+    margin: 25px 25px 25px 25px;
+}
+
+.contenedorTareaLoading {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 570px;
+    padding: 20px 20px 20px 20px;
+    font-family: Poppins;
+    font-style: normal;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(96,206,255,0.71);
+    box-shadow: 0px 0px 15px 3px rgba(96,206,255,0.71);
+    background: white;
+    border-radius: 10px;
+    margin: 25px 25px 25px 25px;
+}
+
+.contenedorUsuariosLoading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-shadow: none;
+    height: 570px;
+}
+
+.bodyCalendar {
+    width: 100%;
+    justify-content: right;
+}
+
+.btnClases { 
+    margin-top: 10px;
+    border-radius: 28px;    
+    height: 38px;
+    width: 204px;
+    background: white;
+    border: solid #00B1FF 3px;
+    font-family: 'Poppins';
+    color: #00B1FF;
+    text-transform: none;
+}
+
+.btnClases:hover {
+    background: #00B1FF;
+    color: white;
+    border: solid white 2px;
+}
+
+.btnLimpiar {
+    margin-top: 10px;
+    border-radius: 28px;
+    height: 38px;
+    width: 150px;
+    border: solid #FF2F54 3px;
+    color: #FF2F54;
+    background: white;
+    text-transform: none;
+    font-family: 'Poppins';
+}
+
+.btnLimpiar:hover {
+    background: #FF2F54;
+    color: white;
+    border: solid white 2px;
+}
+
+.left {
+    justify-content: right;
+}
+
+.MuiTreeItem-label {
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+.MuiTreeItem-iconContainer svg {
+    font-size: 30px;
+}
+
+/* .rbc-btn-group {
+    display: inline-block;
+    white-space: nowrap;
+    width: 78px;
+    height: 33px;
+    background: transparent;
+} */
+
+/************************* Botones calendario **************************************/
+
+.rbc-btn-group > button:first-child:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background: transparent;
+    width: 78px;
+    height: 33px;
+    border: solid #00B1FF 2px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-family: 'Poppins';
+    width: 90px;
+}
+
+.rbc-btn-group > button:last-child:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background: transparent;
+    width: 78px;
+    height: 33px;
+    border: solid #00B1FF 2px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: 'Poppins';
+    width: 90px;    
+}
+
+.rbc-btn-group > button:not(:first-child):not(:last-child) {
+    border-radius: 0;
+    background: transparent;
+    width: 78px;
+    height: 33px;
+    border: solid #00B1FF 2px;
+    font-family: 'Poppins';
+}
+
+/************************* Botones calendario **************************************/
+
+
+
+.makeStyles-root-784 .rbc-month-view, .makeStyles-root-784 .rbc-time-view, .makeStyles-root-784 .rbc-agenda-view {
+    padding: 24px;
+    border-color: rgba(0, 0, 0, 0.12);
+    border-style: solid;
+    border-width: 0;
+    background-color: #ffffff;
+    border: solid #00B1FF;
+    border-radius: 15px;
+}
+
+.loadingDashbord { 
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 59%;
+}
+
+/*********************Tables of dashbord**********************/
+.tdRightPromedio {
+    height: 30px;
+    border: solid white 4px;
+    background: #F5F5F5;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    width: 100px;
+}
+
+.tdRightBPromedio {
+    height: 30px;
+    border: solid white 4px;
+    background: white;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    width: 100px;
+}
+
+.thLeftAllAlumnos {
+    height: 30px;
+    border: solid white 4px;
+    background: #F5F5F5;
+    text-align: start;
+    padding-left: 10px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px  
+}
+
+.thLeftAllBAlumnos {
+    height: 30px;
+    border: solid white 4px;
+    background: white;
+    text-align: start;
+    padding-left: 10px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px
+}
+
+.thLeft {
+    border: solid white 4px;
+    background: #60CEFF;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    height: 30px;
+}
+
+.filterUserAdmin {
+    width: 100%;
+    display: flex;
+}
+
+.exportButton {
+    margin-top: 10px;
+    border-radius: 28px;
+    height: 50px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: #60CEFF;
+    color: white;
+}
+
+.exportButton:hover {
+    background: #00B1FF
+}
+
+.addUserButton {
+    margin-top: 10px;
+    border-radius: 28px;
+    height: 50px;
+    width: 45px;
+    background: #60CEFF;
+    color: white;
+}
+
+.badgeUsers > .MuiBadge-colorPrimary {
+    background: #FF2F54;
+}
+
+.addUserButton:hover {
+    background: #00B1FF
+}

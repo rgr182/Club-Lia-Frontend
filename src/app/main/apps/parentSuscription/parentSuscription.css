@@ -1,0 +1,26 @@
+.invitado {
+    width: 300px;
+    border-radius: 15px;
+    height: 41px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-family: Poppins;
+    text-align: center;
+}
+.invitado-1 {
+    width: 300px;
+    height: auto;
+    border-bottom-right-radius: 18px;
+    background: #FFFFFF;
+    -webkit-box-shadow: -10px 12px 0px 2px #139E96;
+    box-shadow: -10px 12px 0px 2px #139E96;
+    border: 5px solid #139E96;
+    border-radius: 15px;
+    z-index: 3;
+    text-align: center;
+    margin-bottom: 50px;
+}

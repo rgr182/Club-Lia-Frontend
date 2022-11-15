@@ -1,0 +1,96 @@
+.table {
+    padding: 25px;       
+    text-align: center;
+}
+
+.thead {
+    color: white;
+    height: 30px;
+}
+
+.th {
+    border: solid white 4px;
+    background: #60CEFF;
+}
+
+.thLeft {
+    border: solid white 4px;
+    background: #60CEFF;
+    border-top-left-radius: 13px;
+    border-top-left-radius: 13px;
+    height: 30px;
+}
+
+.thRight {
+    border: solid white 4px;
+    background: #60CEFF;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    height: 30px;
+}
+
+.tdLeft {
+    height: 30px;
+    border: solid white 4px;
+    background: #F5F5F5;
+    text-align: start;
+    padding-left: 10px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+
+.tdLeftB {
+    height: 30px;
+    border: solid white 4px;
+    background: white;
+    text-align: start;
+    padding-left: 10px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+
+.tdRight {
+    height: 30px;
+    border: solid white 4px;
+    background: #F5F5F5;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px
+}
+
+.tdRightB {
+    height: 30px;
+    border: solid white 4px;
+    background: white;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+.td {
+    height: 30px;
+    border: solid white 4px;
+    background: #F5F5F5;
+}
+
+.tdB {
+    height: 30px;
+    border: solid white 4px;
+    background: white;
+}
+
+.select {        
+    width: 200px;
+    border-Radius: 10px;
+    background: transparent;
+    color: black;
+    height: 35px;
+    margin-top: 8px;
+    margin-top: 7px;
+    border: solid #60CEFF 3px;
+    font-family: Poppins;
+    padding: 3px;
+}
+
+.select::before, select::after, select:focus {        
+    border: solid transparent 0px;
+    content: none;
+}
